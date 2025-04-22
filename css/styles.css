@@ -94,3 +94,17 @@ footer {
   color: #999;
   padding: 2rem 1rem;
 }
+
+/* make tables scroll responsively within the white main container */
+.table-responsive {
+  overflow-x: auto;
+  margin: 2rem 0;       /* same vertical spacing as before */
+}
+
+/* ensure the table still fills its container but can scroll */
+.table-responsive table {
+  width: 100%;
+  /* optional: if you want a minimum width so columns don’t collapse too tight */
+  min-width: 600px;
+  border-collapse: collapse;
+}
